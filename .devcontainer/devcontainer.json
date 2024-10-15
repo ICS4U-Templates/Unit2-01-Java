@@ -1,0 +1,22 @@
+{
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "hediet.vscode-drawio",
+                "ritwickdey.LiveServer",
+                "oderwat.indent-rainbow",
+                "PKief.material-icon-theme",
+                "GitHub.github-vscode-theme",
+                "sohamkamani.code-eol",
+                "vscjava.vscode-java-debug",
+                "redhat.java",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "MS-vsliveshare.vsliveshare"
+            ]
+        }
+    },
+    "features": {},
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "name": "ICS4U - Online Template - Java",
+    "postCreateCommand": "bash ./.devcontainer/startup.sh"
+}
